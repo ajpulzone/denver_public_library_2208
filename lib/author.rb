@@ -9,7 +9,6 @@ class Author
   end
 
   def write(title, publication_date)
-    Book.new(@title, @publication_date)
-    @books << book
-    end
+    @books << Book.new(title, publication_date)
   end
+end

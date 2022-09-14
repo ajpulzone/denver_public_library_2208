@@ -9,4 +9,5 @@ class Book
     @publication_date = book_info[:publication_date]
     @publication_year = @publication_date.split[2]
   end
+
 end
